@@ -79,12 +79,13 @@
   padding: 0 0 var(--padding-smi);
 }
 .telegram-1-icon {
-  width: 60.4px;
-  height: 55px;
-  position: relative;
+  width: 80.4px;
+  height: 70px;
   object-fit: contain;
-  display: none;
-  z-index: 3;
+  z-index: 2;
+  position: absolute;
+  left: 1095px;
+  bottom: 955px;
 }
 .image-33-icon1 {
   position: absolute;
@@ -270,6 +271,9 @@
   white-space: pre-wrap;
   display: inline-block;
   z-index: 3;
+  position: absolute;
+  left: -144px;
+  bottom: -10px;
 }
 .vector-parent1 {
   align-self: stretch;
@@ -278,6 +282,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   font-size: var(--font-size-17xl);
+  height: 80px;
 }
 .frame-child26,
 .rectangle-parent4 {
@@ -770,6 +775,7 @@
   align-items: flex-end;
   gap: var(--gap-mid);
   font-size: var(--font-size-21xl);
+  padding-top: 25px;
 }
 .frame-parent5,
 .frame-parent7,
